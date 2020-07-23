@@ -1,0 +1,250 @@
+body {
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+}
+
+.vplayer {
+  overflow: hidden;
+}
+
+.vplayer img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.vplayer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vplayer ul li {
+  margin: 10px 0;
+}
+
+.vplayer ul li img {
+  margin: 0;
+  height: 90%;
+}
+
+@media (max-width: 540px) {
+  .vplayer ul li {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .vplayer ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+.vplayer .relflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 540px) {
+  .vplayer .relflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.book-info h5 {
+  color: #fff;
+  margin-top: 8px;
+}
+
+.book-info p {
+  color: #868686;
+  font-size: 15px;
+}
+
+.book-info .btn-outline {
+  border-color: #8260e5;
+  color: #ccc;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.book-info .icon {
+  position: relative;
+  margin: auto 10px;
+}
+
+.book-info .icon i {
+  color: #555;
+  font-size: 28px;
+  position: absolute;
+  top: 0;
+}
+
+.book-info .feedback {
+  background-color: #222222;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.book-info .feedback h1 {
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.book-info .feedback .progress {
+  margin: 10px 0;
+}
+
+.book-info .feedback .marg {
+  margin-top: 10px;
+}
+
+.book-info .late-vid h5 {
+  border-bottom: 1px solid #222222;
+  padding-bottom: 20px;
+}
+
+.book-info .late-vid .item {
+  margin: 10px auto;
+}
+
+.book-info .late-vid .item .card-body {
+  position: relative;
+}
+
+.book-info .late-vid .item .card-body .card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.book-info .late-vid .item .card-body .icon {
+  position: absolute;
+  left: 80%;
+  top: 25%;
+}
+
+.book-info .late-vid .item .card-body .icon i {
+  font-size: 25px;
+  color: #868686;
+}
+
+@media (max-width: 400px) {
+  .book-info .late-vid .item .card-body .icon {
+    top: 16px;
+    left: 73%;
+  }
+}
+
+.book-info .late-vid .item .card-body .card-subtitle {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.book-info .late-vid .item .card-body .rate span {
+  position: absolute;
+  right: 40%;
+  top: 48%;
+  font-size: 12px;
+}
+
+@media (max-width: 400px) {
+  .book-info .late-vid .item .card-body .rate span {
+    right: 28%;
+    top: 47%;
+  }
+}
+
+.book-info .late-vid .item .card-body .card-text {
+  font-size: 12px;
+}
+
+.book-info .related-vid .car-color {
+  background-color: #222222;
+}
+
+.book-info .related-vid .car-color img {
+  height: 100%;
+}
+
+.book-info .related-vid .car-color .card-body {
+  position: relative;
+}
+
+.book-info .related-vid .car-color .card-body .card-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.book-info .related-vid .car-color .card-body .card-subtitle {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.book-info .related-vid .car-color .card-body .card-text {
+  font-size: 12px;
+  color: #868686;
+  margin-bottom: 8px;
+}
+
+.book-info .related-vid .car-color .card-body .rate span {
+  position: absolute;
+  right: 60%;
+  font-size: 12px;
+  color: #ccc;
+  top: 75%;
+}
+
+@media (max-width: 1199px) {
+  .book-info .related-vid .car-color .card-body .rate span {
+    right: 50%;
+    top: 73%;
+  }
+}
+
+@media (max-width: 992px) {
+  .book-info .related-vid .car-color .card-body .rate span {
+    right: 35%;
+    top: 78%;
+  }
+}
+
+@media (max-width: 767px) {
+  .book-info .related-vid .car-color .card-body .rate span {
+    right: 65%;
+    top: 74%;
+  }
+}
+
+@media (max-width: 400px) {
+  .book-info .related-vid .car-color .card-body .rate span {
+    right: 50%;
+  }
+}
+
+.book-info .related-vid .car-color .card-body .icon {
+  position: absolute;
+  left: 80%;
+  top: 70%;
+}
+
+@media (max-width: 992px) {
+  .book-info .related-vid .car-color .card-body .icon {
+    left: 75%;
+    top: 77%;
+  }
+}
+
+@media (max-width: 540px) {
+  .book-info .related-vid .car-color .card-body .icon {
+    top: 68%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

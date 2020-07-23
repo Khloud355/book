@@ -1,0 +1,204 @@
+$firstcolor: #fff;
+$secondColor: #ccc;
+$thirdColor: #8260e5;
+$forthColor: #868686;
+$borderColor: #555;
+$cardColor: #222222;
+$gradColor: linear-gradient(
+  to right,
+  #74277c 0%,
+  #8260e5 41%,
+  #346fc7 62%,
+  #346fc7 100%
+);
+$red-color: #ec3c2f;
+$blue-color: #041370;
+body {
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+}
+// ========== VIDEO PLAYER ==========================
+.vplayer {
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 10px 0;
+      img {
+        margin: 0;
+        height: 90%;
+      }
+      @media (max-width: 540px){
+        margin: 10px;
+      }
+    }
+    @media (max-width: 540px) {
+      display: inline-flex;
+    }
+  }
+  .relflex {
+    display: flex;
+    @media (max-width: 540px) {
+      flex-direction: column;
+    }
+  }
+}
+// ========== BOOK INFO ==============================
+.book-info {
+  h5 {
+    color: $firstcolor;
+    margin-top: 8px;
+  }
+  p {
+    color: $forthColor;
+    font-size: 15px;
+  }
+  .btn-outline {
+    border-color: $thirdColor;
+    color: $secondColor;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .icon {
+    position: relative;
+    margin: auto 10px;
+    i {
+      color: $borderColor;
+      font-size: 28px;
+      position: absolute;
+      top: 0;
+    }
+  }
+  .feedback {
+    background-color: $cardColor;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    h1 {
+      color: $secondColor;
+      margin-top: 10px;
+    }
+    .progress {
+      margin: 10px 0;
+    }
+    .marg {
+      margin-top: 10px;
+    }
+  }
+  .late-vid {
+    h5 {
+      border-bottom: 1px solid $cardColor;
+      padding-bottom: 20px;
+    }
+    .item {
+      margin: 10px auto;
+      .card-body {
+        position: relative;
+        .card-title {
+          font-size: 14px;
+          font-weight: 600;
+          color: $cardColor;
+        }
+        .icon {
+          position: absolute;
+          left: 80%;
+          top: 25%;
+          i {
+            font-size: 25px;
+            color: $forthColor;
+          }
+          @media (max-width: 400px) {
+            top: 16px;
+            left: 73%;
+          }
+        }
+        .card-subtitle {
+          font-size: 13px;
+          font-weight: 600;
+        }
+        .rate {
+          span {
+            position: absolute;
+            right: 40%;
+            top: 48%;
+            font-size: 12px;
+            @media (max-width: 400px) {
+              right: 28%;
+              top: 47%;
+            }
+          }
+        }
+        .card-text {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .related-vid {
+    .car-color {
+      background-color: $cardColor;
+      img {
+        height: 100%;
+      }
+      .card-body {
+        position: relative;
+        .card-title {
+          font-size: 14px;
+          font-weight: 500;
+          color: $secondColor;
+        }
+        .card-subtitle {
+          font-size: 13px;
+          font-weight: 500;
+        }
+        .card-text {
+          font-size: 12px;
+          color: $forthColor;
+          margin-bottom: 8px;
+        }
+        .rate {
+          span {
+            position: absolute;
+            right: 60%;
+            font-size: 12px;
+            color: $secondColor;
+            top: 75%;
+            @media (max-width: 1199px) {
+              right: 50%;
+              top: 73%;
+            }
+            @media (max-width: 992px) {
+              right: 35%;
+              top: 78%;
+            }
+            @media (max-width: 767px) {
+              right: 65%;
+              top: 74%;
+            }
+            @media (max-width: 400px) {
+              right: 50%;
+            }
+          }
+        }
+        .icon {
+          position: absolute;
+          left: 80%;
+          top: 70%;
+          @media (max-width: 992px) {
+            left: 75%;
+            top: 77%;
+          }
+          @media (max-width: 540px) {
+            top: 68%;
+          }
+        }
+      }
+    }
+  }
+}
